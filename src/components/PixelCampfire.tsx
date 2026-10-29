@@ -39,7 +39,7 @@ export const PixelCampfire: React.FC<PixelCampfireProps> = ({
   const [isHovered, setIsHovered] = useState(false);
 
   // Default sprite provided by user
-  const defaultSpriteUrl = '/assets/aistudio/image_23eb3ae0.png';
+  const defaultSpriteUrl = '/assets/aistudio/download.gif';
   const activeImageUrl = customGifUrl || defaultSpriteUrl;
 
   // Handle file drop or selection
